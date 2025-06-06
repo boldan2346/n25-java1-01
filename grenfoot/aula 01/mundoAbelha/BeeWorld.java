@@ -39,5 +39,14 @@ public class BeeWorld extends World
         addObject(mosca3,136,344);
         Mosca mosca4 = new Mosca();
         addObject(mosca4,165,258);
+        Mosca mosca5 = new Mosca();
+        addObject(mosca5,28,574);
+        Mosca mosca6 = new Mosca();
+        addObject(mosca6,21,460);
+        Mosca mosca7 = new Mosca();
+        addObject(mosca7,95,517);
+        Mosca mosca8 = new Mosca();
+        addObject(mosca8,471,346);
+        mosca8.setLocation(144,441);
     }
 }
