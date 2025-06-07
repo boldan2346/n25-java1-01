@@ -48,5 +48,7 @@ public class BeeWorld extends World
         Mosca mosca8 = new Mosca();
         addObject(mosca8,471,346);
         mosca8.setLocation(144,441);
+        Duke duke = new Duke();
+        addObject(duke,384,334);
     }
 }
