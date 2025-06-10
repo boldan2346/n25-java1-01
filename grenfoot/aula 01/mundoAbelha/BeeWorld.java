@@ -19,7 +19,7 @@ public class BeeWorld extends World
         super(800, 600, 1); 
         prepare();
     }
-    
+
     /**
      * Prepare the world for the start of the program.
      * That is: create the initial objects and add them to the world.
@@ -31,24 +31,9 @@ public class BeeWorld extends World
         aranha.setLocation(30,38);
         Abelha abelha = new Abelha();
         addObject(abelha,65,161);
-        Mosca mosca = new Mosca();
-        addObject(mosca,42,360);
-        Mosca mosca2 = new Mosca();
-        addObject(mosca2,76,289);
-        Mosca mosca3 = new Mosca();
-        addObject(mosca3,136,344);
-        Mosca mosca4 = new Mosca();
-        addObject(mosca4,165,258);
-        Mosca mosca5 = new Mosca();
-        addObject(mosca5,28,574);
-        Mosca mosca6 = new Mosca();
-        addObject(mosca6,21,460);
-        Mosca mosca7 = new Mosca();
-        addObject(mosca7,95,517);
-        Mosca mosca8 = new Mosca();
-        addObject(mosca8,471,346);
-        mosca8.setLocation(144,441);
-        Duke duke = new Duke();
-        addObject(duke,384,334);
+        
+        for (int qtd=0;qtd<20;qtd++){
+            int posX=Greenfoot.getRandomNumber(800);int posY=Greenfoot.getRandomNumber(600);int vel=Greenfoot.getRandomNumber(3)+1;int rot=Greenfoot.getRandomNumber(360)+1;addObject(new Mosca(vel,rot),posX,posY);
+        }
     }
 }
