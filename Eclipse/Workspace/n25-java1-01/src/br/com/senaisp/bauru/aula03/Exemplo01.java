@@ -21,6 +21,7 @@ public class Exemplo01 {
 		int vl = 10;
 		int vl2 = (vl++) + 5;
 		System.out.println(vl + " " + vl2);
+		
 
 	}
 
