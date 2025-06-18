@@ -9,7 +9,7 @@ public class Exemplo01 {
 		System.out.println("vlr02:" + vlr02);
 		//Strings
 		String str01="Abelha";
-		String str02= new String("Abelha")
+		String str02= new String("Abelha");
 		System.out.println("Str01:"+str01);
 		System.out.println("Str02:"+str02);
 		//Nessa comparação, é feita de endereço de memória 
