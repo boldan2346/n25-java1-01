@@ -1,6 +1,6 @@
-package br.com.senaisp.bauru.classes;
+package Aula06;
 
-public class ConversaoGal2Lit {
+public class Exemplo02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
